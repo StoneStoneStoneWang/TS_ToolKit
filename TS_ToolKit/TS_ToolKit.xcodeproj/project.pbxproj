@@ -21,6 +21,7 @@
 		6C86ED37210968180083B2A2 /* AppStoreUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86ED36210968180083B2A2 /* AppStoreUtil.m */; };
 		6C86ED3B21096A6D0083B2A2 /* OpenUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86ED3A21096A6D0083B2A2 /* OpenUrl.m */; };
 		6C86ED3F21096D450083B2A2 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86ED3E21096D450083B2A2 /* DateUtil.m */; };
+		6C86ED43210977790083B2A2 /* ZCChinaLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86ED42210977790083B2A2 /* ZCChinaLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		6C86ED3A21096A6D0083B2A2 /* OpenUrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenUrl.m; sourceTree = "<group>"; };
 		6C86ED3D21096D450083B2A2 /* DateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
 		6C86ED3E21096D450083B2A2 /* DateUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		6C86ED41210977790083B2A2 /* ZCChinaLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCChinaLocation.h; sourceTree = "<group>"; };
+		6C86ED42210977790083B2A2 /* ZCChinaLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCChinaLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,7 @@
 		6C86ED26210960D40083B2A2 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				6C86ED40210977790083B2A2 /* ZCChinaLocation */,
 				6C86ED3C21096D310083B2A2 /* DateUtil */,
 				6C86ED3821096A520083B2A2 /* OpenUrl */,
 				6C86ED342109678B0083B2A2 /* AppStoreUtil */,
@@ -219,6 +223,15 @@
 				6C86ED3E21096D450083B2A2 /* DateUtil.m */,
 			);
 			path = DateUtil;
+			sourceTree = "<group>";
+		};
+		6C86ED40210977790083B2A2 /* ZCChinaLocation */ = {
+			isa = PBXGroup;
+			children = (
+				6C86ED41210977790083B2A2 /* ZCChinaLocation.h */,
+				6C86ED42210977790083B2A2 /* ZCChinaLocation.m */,
+			);
+			path = ZCChinaLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +376,7 @@
 				6C86ED3F21096D450083B2A2 /* DateUtil.m in Sources */,
 				6C86ED2D210962670083B2A2 /* NSString+CaculateHeight.m in Sources */,
 				6C86ECF621095ED00083B2A2 /* AppDelegate.m in Sources */,
+				6C86ED43210977790083B2A2 /* ZCChinaLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

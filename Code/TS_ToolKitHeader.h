@@ -17,3 +17,5 @@
 #import "NSString+ConvertDate.h"
 
 #import "DateUtil.h"
+
+#import "ZCChinaLocation.h"
