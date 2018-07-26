@@ -5,7 +5,7 @@ s.name         = "TS_ToolKit"
 s.version      = "0.0.1"
 s.summary      = "A Lib For Tool."
 s.description  = <<-DESC
-
+各种工具类
 DESC
 
 s.homepage     = "https://github.com/StoneStoneStoneWang/TS_ToolKit"
