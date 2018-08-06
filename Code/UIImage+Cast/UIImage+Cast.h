@@ -10,8 +10,17 @@
 
 @interface UIImage (Cast)
 
-
+/*
+ 通过颜色创建image
+ */
 + (UIImage*)createImageWithColor: (UIColor*) color;
 
-
+/*
+ 字符串转换为image
+ */
++ (UIImage *)imageFromString:(NSString *)string attributes:(NSDictionary *)attributes size:(CGSize)size;
+/*
+ view 转换为image
+ */
++ (UIImage *)imageForView:(UIView *)view;
 @end

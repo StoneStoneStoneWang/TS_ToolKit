@@ -15,4 +15,5 @@
 
 - (CGFloat )caculateTwoRowsHeightWith:(CGSize )size andFontSize:(CGFloat )fontSize andLineSpace:(CGFloat )lineSpace;
 
+- (CGFloat )caculateWidthWith:(CGSize )size andFontSize:(CGFloat )fontSize andLineSpace:(CGFloat )lineSpace;
 @end

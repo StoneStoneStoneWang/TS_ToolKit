@@ -46,4 +46,14 @@
         return MIN(doubleH, h);
     }
 }
+- (CGFloat )caculateWidthWith:(CGSize )size andFontSize:(CGFloat )fontSize andLineSpace:(CGFloat )lineSpace {
+    
+    NSMutableParagraphStyle *style = [NSMutableParagraphStyle new];
+    
+    style.lineSpacing = lineSpace;
+    
+    CGFloat w = [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName: [UIFont systemFontOfSize:fontSize] ,NSParagraphStyleAttributeName: style} context:nil].size.width;
+    
+    return w;
+}
 @end
