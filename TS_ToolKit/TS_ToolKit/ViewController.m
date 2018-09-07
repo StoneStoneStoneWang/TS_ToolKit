@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NSString+FirstLetter.h"
 @interface ViewController ()
 
 @end
@@ -16,13 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@ === %@",[@"aaaa" firstLetter] ,[@"中国" pinyin]);
+
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 

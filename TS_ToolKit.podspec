@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "TS_ToolKit"
-s.version      = "0.0.3"
+s.version      = "0.0.4"
 s.summary      = "A Lib For Tool."
 s.description  = <<-DESC
 各种工具类
