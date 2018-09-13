@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NSString+FirstLetter.h"
+#import "NSString+ConvertDate.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +20,7 @@
     
     NSLog(@"%@ === %@",[@"aaaa" firstLetter] ,[@"中国" pinyin]);
 
+    NSLog(@"======%@ ",[@"1535689189" convertToDate:TSDateTypeDateStyle]);
 }
 
 
