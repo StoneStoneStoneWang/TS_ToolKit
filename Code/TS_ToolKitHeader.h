@@ -19,3 +19,7 @@
 #import "DateUtil.h"
 
 #import "ZCChinaLocation.h"
+
+#import "NSString+FirstLetter.h"
+
+#import "NSString+Util.h"
