@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6C02AC0421573D010034B35C /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C02AC0321573D010034B35C /* NSString+Util.m */; };
 		6C262C002141FBF60084DD95 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C262BFF2141FBF60084DD95 /* NSString+FirstLetter.m */; };
+		6C271D2D2181D31500A8A7B4 /* NSString+ByteLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C271D2C2181D31500A8A7B4 /* NSString+ByteLength.m */; };
 		6C86ECF621095ED00083B2A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86ECF521095ED00083B2A2 /* AppDelegate.m */; };
 		6C86ECF921095ED00083B2A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86ECF821095ED00083B2A2 /* ViewController.m */; };
 		6C86ECFC21095ED00083B2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C86ECFA21095ED00083B2A2 /* Main.storyboard */; };
@@ -48,6 +49,8 @@
 		6C02AC0321573D010034B35C /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 		6C262BFE2141FBF60084DD95 /* NSString+FirstLetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstLetter.h"; sourceTree = "<group>"; };
 		6C262BFF2141FBF60084DD95 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstLetter.m"; sourceTree = "<group>"; };
+		6C271D2B2181D31500A8A7B4 /* NSString+ByteLength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ByteLength.h"; sourceTree = "<group>"; };
+		6C271D2C2181D31500A8A7B4 /* NSString+ByteLength.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ByteLength.m"; sourceTree = "<group>"; };
 		6C86ECF121095ED00083B2A2 /* TS_ToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TS_ToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C86ECF421095ED00083B2A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C86ECF521095ED00083B2A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,6 +127,15 @@
 			path = "NSString+FirstLetter";
 			sourceTree = "<group>";
 		};
+		6C271D2A2181D2FF00A8A7B4 /* NSString+ByteLength */ = {
+			isa = PBXGroup;
+			children = (
+				6C271D2B2181D31500A8A7B4 /* NSString+ByteLength.h */,
+				6C271D2C2181D31500A8A7B4 /* NSString+ByteLength.m */,
+			);
+			path = "NSString+ByteLength";
+			sourceTree = "<group>";
+		};
 		6C86ECE821095ED00083B2A2 = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +194,7 @@
 		6C86ED26210960D40083B2A2 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				6C271D2A2181D2FF00A8A7B4 /* NSString+ByteLength */,
 				6C02AC0121573D010034B35C /* NSString+Util */,
 				6C262BFD2141FBB20084DD95 /* NSString+FirstLetter */,
 				6C86ED40210977790083B2A2 /* ZCChinaLocation */,
@@ -403,6 +416,7 @@
 				6C02AC0421573D010034B35C /* NSString+Util.m in Sources */,
 				6C86ED2D210962670083B2A2 /* NSString+CaculateHeight.m in Sources */,
 				6C86ECF621095ED00083B2A2 /* AppDelegate.m in Sources */,
+				6C271D2D2181D31500A8A7B4 /* NSString+ByteLength.m in Sources */,
 				6C86ED43210977790083B2A2 /* ZCChinaLocation.m in Sources */,
 				6C262C002141FBF60084DD95 /* NSString+FirstLetter.m in Sources */,
 			);
