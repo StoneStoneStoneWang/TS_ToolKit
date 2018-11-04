@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define TSImageFromColor(s) [UIImage createImageWithColor:s]
+
 @interface UIImage (Cast)
 
 /*

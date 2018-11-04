@@ -12,14 +12,13 @@
 
 + (void)openUrl:(NSString *)url {
     
-    NSString *version = [UIDevice currentDevice].systemVersion;
-    
-    if (version.doubleValue >= 10.0) {
-        
+    if (@available(iOS 10.0, *)) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url] options:@{} completionHandler:nil];
     } else {
+        // Fallback on earlier versions
         
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
     }
 }
+
 @end

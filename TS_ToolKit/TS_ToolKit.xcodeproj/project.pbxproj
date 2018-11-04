@@ -10,6 +10,7 @@
 		6C02AC0421573D010034B35C /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C02AC0321573D010034B35C /* NSString+Util.m */; };
 		6C262C002141FBF60084DD95 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C262BFF2141FBF60084DD95 /* NSString+FirstLetter.m */; };
 		6C271D2D2181D31500A8A7B4 /* NSString+ByteLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C271D2C2181D31500A8A7B4 /* NSString+ByteLength.m */; };
+		6C6B4276218F1161000E4E3E /* UIColor+ColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B4275218F1161000E4E3E /* UIColor+ColorTool.m */; };
 		6C86ECF621095ED00083B2A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86ECF521095ED00083B2A2 /* AppDelegate.m */; };
 		6C86ECF921095ED00083B2A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86ECF821095ED00083B2A2 /* ViewController.m */; };
 		6C86ECFC21095ED00083B2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C86ECFA21095ED00083B2A2 /* Main.storyboard */; };
@@ -51,6 +52,9 @@
 		6C262BFF2141FBF60084DD95 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstLetter.m"; sourceTree = "<group>"; };
 		6C271D2B2181D31500A8A7B4 /* NSString+ByteLength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ByteLength.h"; sourceTree = "<group>"; };
 		6C271D2C2181D31500A8A7B4 /* NSString+ByteLength.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ByteLength.m"; sourceTree = "<group>"; };
+		6C6B4274218F1161000E4E3E /* UIColor+ColorTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorTool.h"; sourceTree = "<group>"; };
+		6C6B4275218F1161000E4E3E /* UIColor+ColorTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorTool.m"; sourceTree = "<group>"; };
+		6C6B4277218F13A1000E4E3E /* TS_ToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TS_ToolKit.h; sourceTree = "<group>"; };
 		6C86ECF121095ED00083B2A2 /* TS_ToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TS_ToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C86ECF421095ED00083B2A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C86ECF521095ED00083B2A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +140,15 @@
 			path = "NSString+ByteLength";
 			sourceTree = "<group>";
 		};
+		6C6B4273218F10DA000E4E3E /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				6C6B4274218F1161000E4E3E /* UIColor+ColorTool.h */,
+				6C6B4275218F1161000E4E3E /* UIColor+ColorTool.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
 		6C86ECE821095ED00083B2A2 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +207,7 @@
 		6C86ED26210960D40083B2A2 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				6C6B4273218F10DA000E4E3E /* UIColor */,
 				6C271D2A2181D2FF00A8A7B4 /* NSString+ByteLength */,
 				6C02AC0121573D010034B35C /* NSString+Util */,
 				6C262BFD2141FBB20084DD95 /* NSString+FirstLetter */,
@@ -205,6 +219,7 @@
 				6C86ED282109619C0083B2A2 /* NSString+CaculateHeight */,
 				6C86ED292109619C0083B2A2 /* NSString+ConvertDate */,
 				6C86ED27210961180083B2A2 /* TS_ToolKitHeader.h */,
+				6C6B4277218F13A1000E4E3E /* TS_ToolKit.h */,
 			);
 			name = Code;
 			path = ../../Code;
@@ -411,6 +426,7 @@
 				6C86ED30210962710083B2A2 /* NSString+ConvertDate.m in Sources */,
 				6C86ED37210968180083B2A2 /* AppStoreUtil.m in Sources */,
 				6C86ED332109627A0083B2A2 /* UIImage+Cast.m in Sources */,
+				6C6B4276218F1161000E4E3E /* UIColor+ColorTool.m in Sources */,
 				6C86ED0421095ED00083B2A2 /* main.m in Sources */,
 				6C86ED3F21096D450083B2A2 /* DateUtil.m in Sources */,
 				6C02AC0421573D010034B35C /* NSString+Util.m in Sources */,
@@ -584,6 +600,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QQ8T96P6H;
 				INFOPLIST_FILE = TS_ToolKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JiuTouZhu.TS-ToolKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -598,6 +615,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QQ8T96P6H;
 				INFOPLIST_FILE = TS_ToolKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JiuTouZhu.TS-ToolKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
